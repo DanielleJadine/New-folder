@@ -38,9 +38,19 @@
     font-variation-settings: "wght" 100, "ital" 0;
     text-shadow: none;
   }
-  footer {
-    background-color: #482896; /* Soft purple */
-    padding: 10px;
-    text-align: center;
-    color:#d6f4f4; /* Dark gray */
-}
+   footer {
+            background-color:#8357eb; /* Soft purple */
+            padding: 10px;
+            text-align: center;
+            color:#d6f4f4; /* Dark gray */
+        }
+       /* Media Queries */
+@media screen and (max-width: 768px) {
+    body {
+      flex-direction: column;
+    }
+  
+    main {
+      font-size: 10rem;
+    }
+  } 
