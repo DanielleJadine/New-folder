@@ -11,7 +11,7 @@
     margin: 0;
     padding: 0;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
     background-color: #8357eb;
     width: 100vw;
@@ -38,19 +38,11 @@
     font-variation-settings: "wght" 100, "ital" 0;
     text-shadow: none;
   }
-   footer {
-            background-color:#8357eb; /* Soft purple */
-            padding: 10px;
-            text-align: center;
-            color:#d6f4f4; /* Dark gray */
-        }
-       /* Media Queries */
-@media screen and (max-width: 768px) {
-    body {
-      flex-direction: column;
-    }
-  
+   
+ /* Media Queries */
+@media screen and (max-width: 480px) {
     main {
-      font-size: 10rem;
+      font-size: 12vw; /* Increase font size for smaller screens */
+      -webkit-text-stroke: 1px #d6f4f4; /* Further reduce text stroke for smaller screens */
     }
-  } 
+  }
